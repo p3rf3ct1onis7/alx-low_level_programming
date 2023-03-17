@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main-Entry point
+ * Description: Gives the size of data types
+ * @sizeof() - Returns the size of the data type
+ * @printf() - Prints a line/string
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
