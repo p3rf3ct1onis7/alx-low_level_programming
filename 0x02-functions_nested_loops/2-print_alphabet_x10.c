@@ -1,10 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
+#include"main.h"
+#include<stdio.h>
 /**
- * print_alphabet_x10 - Entry point
+ * print_alphabet_x10-Entry point
  *
- * Description: Prints 10 times alphabets
+ * Description: prints 10 times the alphabet.
  *
  * Return: Always 0 (Success)
  */
@@ -20,7 +19,5 @@ void print_alphabet_x10(void)
 			putchar(alpha);
 		}
 		putchar('\n');
-
 	}
 }
-
